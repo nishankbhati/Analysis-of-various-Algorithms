@@ -5,6 +5,5 @@ This Repo contains analysis of different sorting algorithms.<br />
 2. It includes **graphs** that will compare *Number of comparisions* for different size of input. <br />
 
 ##Initial Contributors
- **Pradyumn Agrawal(15UCS096) and Nishank Bhati (15UCS086)**
-
-
+ **Pradyumn Agrawal (15UCS096) and Nishank Bhati (15UCS086)** <br />
+*Both are enrolled in CSE Program.*
