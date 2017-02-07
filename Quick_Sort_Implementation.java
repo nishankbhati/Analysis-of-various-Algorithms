@@ -2,12 +2,12 @@ import java.util.*;
 import java.io.*;
 import java.lang.*;
 
-public class Quick_Sort_Implementation{
+public class AnalysisOfVariousAlgorithms{
 	public static Scanner scanner = new Scanner(System.in);
     public static PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
 
     public static void main(String[] args) throws java.lang.Exception {
-        new Quick_Sort_Implementation().run();
+        new AnalysisOfVariousAlgorithms().run();
         out.close();
     }
     void run() throws java.lang.Exception {
