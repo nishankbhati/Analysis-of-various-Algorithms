@@ -3,6 +3,7 @@ import java.io.*;
 import java.lang.*;
 
 public class Quick_Sort_Implementation{
+	public static Scanner scanner = new Scanner(System.in);
     public static PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
 
     public static void main(String[] args) throws java.lang.Exception {
@@ -14,14 +15,16 @@ public class Quick_Sort_Implementation{
         long comparisons_by_Hoares_partition = 0;
 
         Random gen = new Random();
-        int n = 100;
+        int n = scanner.nextInt();
         int[] a = new int[n];
         for(int i = 0;i < n; i++){
             a[i] = gen.nextInt(10000)%1000;
         }
+        
         //out.println(Arrays.toString(a));
         int[] b = new int[n];
         System.arraycopy(a, 0, b, 0, n);
+
         comparisons_by_Hoares_partition = QuickSort_Hoares(a,0,n - 1);
         comparisons_by_Normal_partition = QuickSort_Normal(b,0,n - 1);
         out.println("Comparisons by Hoare's Partition Algorithm -> " + comparisons_by_Hoares_partition);
